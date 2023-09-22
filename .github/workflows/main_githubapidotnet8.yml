@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'GitHubAPIDotnet8'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
-          package: ./publish
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ACF3442568D54EC480913654E1C3633F }}
+          package: .
